@@ -36,6 +36,21 @@ A futó konténerben az alkalmazás a következő címen érhető el:
 http://localhost:8080
 
 
+## Docker image push (registry)
+
+A projekt Docker image-e elérhető Docker Hub-on.
+A push lépései:
+
+A saját image tage-lése:
+> docker tag hello-devops:v1 ludvi01/hello-devops:v1
+
+Push a registrybe:
+> docker push ludvi01/hello-devops:v1
+
+Az image itt érhető el:
+https://hub.docker.com/r/ludvi01/hello-devops
+
+
 ## Git – trunk-based development
 
 A main branch szolgál trunkként.  
